@@ -1,1 +1,1 @@
-worker:node kzZo_Music.js
+worker: node kzZo_Music.js
