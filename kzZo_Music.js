@@ -9,13 +9,12 @@ const queue = new Map();
 const client = new Discord.Client();
 
 client.on('ready', () => {
-  client.user.setGame('=)','https://www.twitch.tv');
   console.log('---------------');
   console.log(' Bot Is Online')
   console.log('---------------')
 });
 
-const prefix = "$"
+const prefix = "+"
 client.on('message', async msg => {
 	if (msg.author.bot) return undefined;
 	
